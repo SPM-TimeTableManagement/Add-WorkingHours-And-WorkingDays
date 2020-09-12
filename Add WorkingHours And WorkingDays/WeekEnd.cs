@@ -15,7 +15,7 @@ namespace Add_WorkingHours_And_WorkingDays
     {
         public WeekEnd()
         {
-            InitializeComponent();
+            InitializeComponent()
         }
         SqlConnection con = new SqlConnection(@"Data Source=LAPTOP-J09JS6JN;Initial Catalog=WHoursAndWDays;Integrated Security=True");
 
